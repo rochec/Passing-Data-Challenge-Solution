@@ -21,6 +21,7 @@
 		B562092418187E5D00272C29 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B562090618187E5D00272C29 /* UIKit.framework */; };
 		B562092C18187E5D00272C29 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B562092A18187E5D00272C29 /* InfoPlist.strings */; };
 		B562092E18187E5D00272C29 /* Passing_Data_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B562092D18187E5D00272C29 /* Passing_Data_Challenge_SolutionTests.m */; };
+		B56209391818809D00272C29 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B56209381818809D00272C29 /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		B562092918187E5D00272C29 /* Passing Data Challenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Passing Data Challenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		B562092B18187E5D00272C29 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B562092D18187E5D00272C29 /* Passing_Data_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Passing_Data_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		B56209371818809D00272C29 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		B56209381818809D00272C29 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				B562091418187E5D00272C29 /* Main.storyboard */,
 				B562091718187E5D00272C29 /* ViewController.h */,
 				B562091818187E5D00272C29 /* ViewController.m */,
+				B56209371818809D00272C29 /* DetailViewController.h */,
+				B56209381818809D00272C29 /* DetailViewController.m */,
 				B562091A18187E5D00272C29 /* Images.xcassets */,
 				B562090918187E5D00272C29 /* Supporting Files */,
 			);
@@ -252,6 +257,7 @@
 				B562091918187E5D00272C29 /* ViewController.m in Sources */,
 				B562091318187E5D00272C29 /* AppDelegate.m in Sources */,
 				B562090F18187E5D00272C29 /* main.m in Sources */,
+				B56209391818809D00272C29 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,6 +466,7 @@
 				B562093318187E5D00272C29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B562093418187E5D00272C29 /* Build configuration list for PBXNativeTarget "Passing Data Challenge SolutionTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +475,7 @@
 				B562093618187E5D00272C29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
