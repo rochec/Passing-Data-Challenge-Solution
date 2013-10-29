@@ -37,9 +37,8 @@
 }
 
 - (IBAction)updateButtonPressed:(UIButton *)sender {
+    self.detailViewLabel.text = self.detailTextField.text;
     [self.delegate didUpdateText:self.detailTextField.text];
-
-    
 }
 
 
@@ -47,6 +46,7 @@
 {
     [self.detailTextField resignFirstResponder];
     [self.delegate didUpdateText:self.detailTextField.text];
+    self.detailViewLabel.text = self.detailTextField.text;
     
     return YES;
 }

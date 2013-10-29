@@ -43,7 +43,7 @@
     }
 }
 
-#pragma mark - DetailViewController Delegate Implementation
+#pragma mark - DetailViewControllerDelegate
 
 -(void)didUpdateText:(NSString *)text
 {
